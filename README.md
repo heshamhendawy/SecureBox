@@ -27,5 +27,32 @@ This is a type of web application vulnerability that allows attackers to inject 
 
 
 # Install Ubuntu & Debian Destributions
->> git clone https://github.com/Heshamhendawy7/SecureBox.git
->> cd Downloads
+<pre>
+ <span style="color: green;">
+  sudo git clone https://github.com/Heshamhendawy7/SecureBox.git
+ </span>
+</pre>
+
+# Unzip folder
+<pre>
+ <span style="color: green;">
+  cd Downloads
+  unzip SecureBox.zip
+ </span>
+</pre>
+
+# Install Requirements
+<pre>
+ <span style="color: green;">
+  cd SecureBox
+  chmod +x SecureBox.py
+  sudo pip install -r requirements.txt
+ </span>
+</pre>
+
+# Run the Script
+<pre>
+ <span style="color: green";>
+  sudo python3 SecureBox.py
+ </span>
+</pre>
