@@ -1,0 +1,6 @@
+pip install python-nmap
+pip install bs4
+pip install requests
+pip install fpdf
+pip install paramiko
+apt-get install python3-tk

@@ -1,0 +1,8 @@
+"<script>alert('XSS')</script>",
+"<img src='x' onerror='alert(1)'>",
+"'\"><script>alert('XSS')</script>",
+"<svg/onload=alert(1)>",
+"<a href='javascript:alert(1)'>Click me</a>",
+"<iframe src='javascript:alert(1)'></iframe>",
+"\"><img src=x onerror=alert(1)>",
+"<input onfocus=alert(1) autofocus>"
