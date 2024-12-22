@@ -24,3 +24,8 @@ This vulnerability occurs when user input is not properly sanitized before being
 
 # XSS Injection
 This is a type of web application vulnerability that allows attackers to inject malicious scripts into web pages. When a user visits the infected page, the script executes in their browser, potentially stealing data, redirecting them to malicious sites, or altering the content they see. The application provides tools to help identify and exploit XSS vulnerabilities in web applications. This may involve loading payloads (malicious code) and testing them against forms or other user input points.
+
+
+# Install Ubuntu & Debian Destributions
+>> git clone https://github.com/Heshamhendawy7/SecureBox.git
+>> cd Downloads
