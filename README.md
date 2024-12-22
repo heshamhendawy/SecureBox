@@ -5,7 +5,6 @@
 In today's interconnected world, cybersecurity is paramount. SecureBox is a powerful, all-in-one cybersecurity toolkit designed to empower you with the ability to proactively identify and mitigate vulnerabilities in your systems. From network port scanning and exploitation to advanced web application security testing, SecureBox provides the tools you need to stay one step ahead of potential threats.
 
 
-
 # Top Functions
 - Port Scanning
 - Port Exploitation
@@ -33,7 +32,7 @@ This is a type of web application vulnerability that allows attackers to inject 
  </span>
 </pre>
 
-# Unzip folder
+<h5> Unzip folder </h5>
 <pre>
  <span style="color: green;">
   cd Downloads
@@ -41,7 +40,7 @@ This is a type of web application vulnerability that allows attackers to inject 
  </span>
 </pre>
 
-# Install Requirements
+<h5> Install Requirements </h5>
 <pre>
  <span style="color: green;">
   cd SecureBox
@@ -50,9 +49,17 @@ This is a type of web application vulnerability that allows attackers to inject 
  </span>
 </pre>
 
-# Run the Script
+<h5> Run the Script </h5>
 <pre>
  <span style="color: green";>
   sudo python3 SecureBox.py
  </span>
 </pre>
+
+# Install Windows
+<h5>
+ You can install the zip folder and run the script on any compiler you have such as PyCharm or VS Code.
+ Make sure to install the missed libraries found in the requirements.txt file in your compiler's terminal.
+</h5>
+
+# Hope you enjoy. Thank You
