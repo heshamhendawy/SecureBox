@@ -32,7 +32,7 @@ This is a type of web application vulnerability that allows attackers to inject 
  </span>
 </pre>
 
-<h5> Install Requirements </h5>
+<h5> Install Requirements (Manually) </h5>
 <pre>
  <span style="color: green;">
   sudo pip install python-nmap --break-system-packages
@@ -41,6 +41,13 @@ This is a type of web application vulnerability that allows attackers to inject 
   sudo pip install fpdf --break-system-packages
   sudo pip install paramiko --break-system-packages
   sudo apt-get install python3-tk --break-system-packages
+ </span>
+</pre>
+
+<h5> Install Requirements (Automatically) </h5>
+<pre>
+ <span style="color: green;">
+  sudo pip install -r requirements.txt
  </span>
 </pre>
 
