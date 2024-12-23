@@ -32,14 +32,6 @@ This is a type of web application vulnerability that allows attackers to inject 
  </span>
 </pre>
 
-<h5> Unzip folder </h5>
-<pre>
- <span style="color: green;">
-  cd Downloads
-  unzip SecureBox.zip
- </span>
-</pre>
-
 <h5> Install Requirements </h5>
 <pre>
  <span style="color: green;">
