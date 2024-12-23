@@ -49,6 +49,7 @@ This is a type of web application vulnerability that allows attackers to inject 
  <span style="color: green";>
   cd SecureBox
   chmod +x SecureBox.py
+  ls -l SecureBox.py
   sudo python3 SecureBox.py
  </span>
 </pre>
