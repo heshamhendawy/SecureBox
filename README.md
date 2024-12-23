@@ -35,12 +35,12 @@ This is a type of web application vulnerability that allows attackers to inject 
 <h5> Install Requirements </h5>
 <pre>
  <span style="color: green;">
-  sudo pip install python-nmap
-  sudo pip install bs4
-  sudo pip install requests
-  sudo pip install fpdf
-  sudo pip install paramiko
-  sudo apt-get install python3-tk
+  sudo pip install python-nmap --break-system-packages
+  sudo pip install bs4 --break-system-packages
+  sudo pip install requests --break-system-packages
+  sudo pip install fpdf --break-system-packages
+  sudo pip install paramiko --break-system-packages
+  sudo apt-get install python3-tk --break-system-packages
  </span>
 </pre>
 
