@@ -35,15 +35,20 @@ This is a type of web application vulnerability that allows attackers to inject 
 <h5> Install Requirements </h5>
 <pre>
  <span style="color: green;">
-  cd SecureBox
-  chmod +x SecureBox.py
-  sudo pip install -r requirements.txt
+  sudo pip install python-nmap
+  sudo pip install bs4
+  sudo pip install requests
+  sudo pip install fpdf
+  sudo pip install paramiko
+  sudo apt-get install python3-tk
  </span>
 </pre>
 
 <h5> Run the Script </h5>
 <pre>
  <span style="color: green";>
+  cd SecureBox
+  chmod +x SecureBox.py
   sudo python3 SecureBox.py
  </span>
 </pre>
