@@ -1,6 +1,6 @@
-python-nmap --break-system-packages
-bs4 --break-system-packages
-requests --break-system-packages
-fpdf --break-system-packages
-paramiko --break-system-packages
-python3-tk --break-system-packages
+python-nmap
+bs4
+requests
+fpdf
+paramiko
+python3-tk
