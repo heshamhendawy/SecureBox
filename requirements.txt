@@ -1,6 +1,6 @@
-pip install python-nmap
-pip install bs4
-pip install requests
-pip install fpdf
-pip install paramiko
-apt-get install python3-tk
+python-nmap --break-system-packages
+bs4 --break-system-packages
+requests --break-system-packages
+fpdf --break-system-packages
+paramiko --break-system-packages
+python3-tk --break-system-packages
