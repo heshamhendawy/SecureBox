@@ -1,3 +1,8 @@
+# Copyright (c) 2024 M0stafa0x10
+# All rights reserved.
+# Unauthorized use of this code is strictly prohibited.
+# For permissions, contact: [engmostafa.mohamed9@gmail.com]
+
 import asyncio
 import telnetlib
 import ftplib
