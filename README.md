@@ -1,8 +1,19 @@
 # SecureBox
  Cybersecurity-Automated TOOL
+ 
+ All rights reserved. Unauthorized use of this project is prohibited.
+ 
+## License
+
+This project is proprietary software. All rights are reserved by M0stafa0x10. 
+No part of this software may be used, copied, modified, distributed, or incorporated into other projects without explicit written permission from the owner.
+
+For licensing inquiries, please contact: [engmostafa.mohamed9@gmail.com].
+
+
 
 # Introduction
-In today's interconnected world, cybersecurity is paramount. SecureBox is a powerful, all-in-one cybersecurity toolkit designed to empower you with the ability to proactively identify and mitigate vulnerabilities in your systems. From network port scanning and exploitation to advanced web application security testing, SecureBox provides the tools you need to stay one step ahead of potential threats.
+In today's interconnected world, cybersecurity is paramount. SecureBox is a powerful, all-in-one cybersecurity toolkit designed to empower you with the ability to proactively identify and mitigate vulnerabilities in your systems. From network port scanning and exploitation to advanced web application security testing, SecureBox provides the tools you need to stay one step ahead of potential threats. All the previous functions has a final result that is recorded in a file, (Port scanning, exploitation, and SQL Injection) in PDF File manually that you go to generate report window and click generate report, XSS Injection are recorded in json file automatically.
 
 
 # Top Functions
@@ -32,19 +43,21 @@ This is a type of web application vulnerability that allows attackers to inject 
  </span>
 </pre>
 
-<h5> Unzip folder </h5>
+<h5> Install Requirements (Manually) </h5>
 <pre>
  <span style="color: green;">
-  cd Downloads
-  unzip SecureBox.zip
+  sudo pip install python-nmap --break-system-packages
+  sudo pip install bs4 --break-system-packages
+  sudo pip install requests --break-system-packages
+  sudo pip install fpdf --break-system-packages
+  sudo pip install paramiko --break-system-packages
+  sudo apt-get install python3-tk --break-system-packages
  </span>
 </pre>
 
-<h5> Install Requirements </h5>
+<h5> Install Requirements (Automatically) </h5>
 <pre>
  <span style="color: green;">
-  cd SecureBox
-  chmod +x SecureBox.py
   sudo pip install -r requirements.txt
  </span>
 </pre>
@@ -52,6 +65,9 @@ This is a type of web application vulnerability that allows attackers to inject 
 <h5> Run the Script </h5>
 <pre>
  <span style="color: green";>
+  cd SecureBox
+  sudo chmod +x SecureBox.py
+  ls -l SecureBox.py
   sudo python3 SecureBox.py
  </span>
 </pre>
