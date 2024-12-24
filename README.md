@@ -1,5 +1,6 @@
 # SecureBox
  Cybersecurity-Automated TOOL
+ All rights reserved. Unauthorized use of this project is prohibited.
  
 ## License
 
