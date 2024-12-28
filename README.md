@@ -39,7 +39,7 @@ This is a type of web application vulnerability that allows attackers to inject 
 # Install Ubuntu & Debian Destributions
 <pre>
  <span style="color: green;">
-  sudo git clone https://github.com/Heshamhendawy7/SecureBox.git
+  sudo git clone https://github.com/heshamhendawy/SecureBox.git
  </span>
 </pre>
 
